@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewpoint" content="id=edge" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <div class="weather-app">
+      <header>
+        <form id="search-form">
+          <input class="enter-city" type="text" placeholder="Enter a city..." />
+          <input class="search-button" type="submit" value="Search" />
+        </form>
+      </header>
+      <div class="current-weather">
+        <div>
+          <h1 class="current-city">San Francisco</h1>
+          <p class="today">
+            <span class="current-date">Saturday 15:32</span>, moderate rain
+            <br />
+            Humidiity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
+          </p>
+        </div>
+        <div class="current-temperature">
+          <span class="current-temperature-icon">☀️</span>
+          <span class="current-temperature-value">24</span>
+          <span class="current-temperature-unit">°C</span>
+        </div>
+      </div>
+      <ul>
+        <li>Sun ☀️ <br /><strong>14°C</strong> - 18°C</li>
+        <li>Mon ☀️ <br /><strong>14°C</strong> - 18°C</li>
+        <li>Tue ☀️ <br /><strong>14°C</strong> - 18°C</li>
+        <li>Wed ☀️ <br /><strong>14°C</strong> - 18°C</li>
+        <li>Thu ☀️ <br /><strong>14°C</strong> - 18°C</li>
+      </ul>
+      <footer>
+        <p>
+          This project was coded by
+          <a href="#" target="_blank">Eduarda Groehs</a> and is open-sourced on
+          <a href="#" target="_blank">GitHub</a> and hosted on
+          <a href="#" target="_blank">Netlify</a>.
+        </p>
+      </footer>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
