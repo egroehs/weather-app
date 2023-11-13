@@ -4,38 +4,46 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,100&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
     <title>Weather</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city..." required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <div>
-      <h1>Paris</h1>
-      <p>
-        Tuesday 14:30, scattered clouds
-        <br />
-        Humidity: 66%, Wind: 3.31km/h
-      </p>
+    <div class="app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city..." required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Paris</h1>
+          <p>
+            Tuesday 14:30, scattered clouds
+            <br />
+            Humidity: 66%, Wind: 3.31km/h
+          </p>
+        </div>
+        <div>☀️ 12°C</div>
+      </main>
+      <footer>
+        Coded by
+        <a href="https://github.com/egroehs" target="_blank">Eduarda Groehs</a>,
+        code hosted on
+        <a href="https://github.com/egroehs/weather-app" target="_blank"
+          >GitHub</a
+        >
+        and website hosted on
+        <a href="https://weatherappshecodeseg.netlify.app/" target="_blank"
+          >Netlify</a
+        >.
+      </footer>
     </div>
-    <div>☀️ 12°C</div>
-    </main>
-
-    <footer>
-      Coded by
-      <a href="https://github.com/egroehs" target="_blank">Eduarda Groehs</a>,
-      code hosted on
-      <a href="https://github.com/egroehs/weather-app" target="_blank"
-        >GitHub</a
-      >
-      and website hosted on
-      <a href="https://weatherappshecodeseg.netlify.app/" target="_blank"
-        >Netlify</a
-      >.
-    </footer>
   </body>
 </html>
